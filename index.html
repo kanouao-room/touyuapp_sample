@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie-edge">
+    <link rel="stylesheet" href="style.css">
+    <title>document</title>
+    <!-- jQueryのCDN -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+
+</head>
+
+<body>
+    <p>灯油入れた日記録アプリ</p>
+    <p> 現在の日付は <span id="input"></span></p>
+    <h1><span id="view_time"></span></h1>
+    <p>灯油入れたら、「登録ボタン」を押してください。
+        <br>(今日の日付が保存されます。)
+    </p>
+    <br>
+
+
+
+
+
+
+
+
+    <button id="addBtn">登録ボタン</button>
+    <br><br>
+
+    <p>過去記録一覧</p>
+    <table border="1" id="targetTable">
+        <thead>
+            <tr>
+                <td>担当者</td>
+                <td>日時</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>(例)桜井</td>
+                <td>(例)2022年4月29日</td>
+            </tr>
+        <tbody>
+    </table>
+
+    <script src="config.js"></script>
+</body>
+
+</html>
